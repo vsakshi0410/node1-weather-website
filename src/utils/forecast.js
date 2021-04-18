@@ -7,7 +7,7 @@ request({url, json: true}, (error, {body}={})=>{
     }else if(body.error){
         callback("Unable to get the response",undefined)
     }else{
-    callback(undefined, `It is currently ${body.current.temperature} degrees out. Its feel like ${body.current.feelslike} `)
+    callback(undefined, `It is currently ${body.current.temperature} degrees out. Its feel like ${body.current.feelslike} and I like the weather and enjoying it. Hurray!!!!`)
     }
 })
 }
